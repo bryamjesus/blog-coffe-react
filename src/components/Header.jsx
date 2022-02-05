@@ -12,6 +12,7 @@ export const Header = () => {
             </h1>
           </Link>
           <nav className={style.navegacion}>
+            <Link className={style.navegacion__enlace} to='/blog'>Blog</Link>
             <Link className={style.navegacion__enlace} to='/nosotros'>Nosotros</Link>
             <Link className={style.navegacion__enlace} to='/cursos'>Cursos</Link>
             <Link className={style.navegacion__enlace} to='/contacto'>Contacto</Link>

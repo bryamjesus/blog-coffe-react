@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import style from '../css/Principal.module.css'
 
-export const CursoHeader = ({ title, precio, cupo, idC }) => {
+export const ContenidoSideBar = ({ title, precio, cupo, idC }) => {
   return (
     <li className={style.widget_curso}>
       <h4 className='no-margin'>{title}</h4>

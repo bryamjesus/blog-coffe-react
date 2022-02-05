@@ -1,13 +1,14 @@
 import { Route, Routes } from 'react-router-dom'
 import '../css/App.css'
 import { Contacto } from '../pages/Contacto'
-import { Curso } from '../pages/Curso'
-import { CursoDetalle } from '../pages/CursoDetalle'
+import { BlogDetails } from '../pages/BlogDetails'
+import { CursoDetails } from '../pages/CursoDetails'
 import { Nosotros } from '../pages/Nosotros'
 import { Principal } from '../pages/Principal'
 import { Footer } from './Footer'
 import { Header } from './Header'
 import { Cursos } from '../pages/Cursos'
+import { Blog } from '../pages/Blog'
 
 function App () {
   return (
@@ -16,9 +17,10 @@ function App () {
       <Routes>
         <Route path='/' element={<Principal />} />
         <Route path='/nosotros' element={<Nosotros />} />
-        <Route path='/nosotros/:id' element={<Curso />} />
+        <Route path='/blog' element={<Blog />} />
+        <Route path='/blog/:id' element={<BlogDetails />} />
         <Route path='/cursos' element={<Cursos />} />
-        <Route path='/cursos/:idC' element={<CursoDetalle />} />
+        <Route path='/cursos/:idC' element={<CursoDetails />} />
         <Route path='/contacto' element={<Contacto />} />
       </Routes>
       <Footer />

@@ -3,7 +3,7 @@ import cursos from '../json/cursos.json'
 import styleN from '../css/Nosotros.module.css'
 import style from '../css/Curso.module.css'
 
-export const CursoDetalle = () => {
+export const CursoDetails = () => {
   const { idC } = useParams()
   // const details = principal.find((curso) => curso.id == id)
   const curso = cursos.find((c) => c.id == idC)

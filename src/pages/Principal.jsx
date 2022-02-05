@@ -1,8 +1,8 @@
-import { Article } from '../components/Article'
+import { ContenidoPrincipal } from '../components/ContenidoPrincipal'
 import style from '../css/Principal.module.css'
 import principal from '../json/principal.json'
 import cursos from '../json/cursos.json'
-import { CursoHeader } from '../components/CursoHeader'
+import { ContenidoSideBar } from '../components/ContenidoSideBar'
 
 export const Principal = () => {
   return (
@@ -11,7 +11,7 @@ export const Principal = () => {
         <h3>Nuestro blog</h3>
         {
           principal.map((p) => (
-            <Article key={p.id} titulo={p.title} contenido={p.contenido} idP={p.id} ruta={p.src} />
+            <ContenidoPrincipal key={p.id} titulo={p.title} contenido={p.contenido} idP={p.id} ruta={p.src} />
           ))
         }
       </main>
@@ -20,7 +20,7 @@ export const Principal = () => {
         <ul className={`${style.cursos} no-padding`}>
           {
             cursos.map((curso) => (
-              <CursoHeader key={curso.id} title={curso.title} precio={curso.price} cupo={curso.cupo} idC={curso.id} />
+              <ContenidoSideBar key={curso.id} title={curso.title} precio={curso.price} cupo={curso.cupo} idC={curso.id} />
             ))
           }
         </ul>
