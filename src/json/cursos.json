@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "src": "../img/curso1.jpg",
+        "title": "Técnicas de extracción de café",
+        "price": "Gratis",
+        "cupo": "20",
+        "contenido": "Donec tempor, nisl et rhoncus viverra, turpis enim convallis ligula, non hendrerit nulla tortor nec odio. Morbi non mattis nunc, elementum auctor arcu. Aliquam vestibulum arcu non sem porta auctor. Nam vel congue ligula, eu condimentum felis. Nunc aliquam hendrerit odio sit amet venenatis. Nunc varius, libero a tempor rutrum, nulla risus congue velit, nec suscipit nibh lectus ac dolor. Nulla facilisi."
+    },
+    {
+        "id": "2",
+        "src": "../img/curso2.jpg",
+        "title": "Taller para Tostar y Moler Granos",
+        "price": "Gratis",
+        "cupo": "20",
+        "contenido": "Donec tempor, nisl et rhoncus viverra, turpis enim convallis ligula, non hendrerit nulla tortor nec odio. Morbi non mattis nunc, elementum auctor arcu. Aliquam vestibulum arcu non sem porta auctor. Nam vel congue ligula, eu condimentum felis. Nunc aliquam hendrerit odio sit amet venenatis. Nunc varius, libero a tempor rutrum, nulla risus congue velit, nec suscipit nibh lectus ac dolor. Nulla facilisi."
+    },
+    {
+        "id": "3",
+        "src": "../img/curso3.jpg",
+        "title": "4 Recetas de Café para Principiantes",
+        "price": "Gratis",
+        "cupo": "20",
+        "contenido": "Donec tempor, nisl et rhoncus viverra, turpis enim convallis ligula, non hendrerit nulla tortor nec odio. Morbi non mattis nunc, elementum auctor arcu. Aliquam vestibulum arcu non sem porta auctor. Nam vel congue ligula, eu condimentum felis. Nunc aliquam hendrerit odio sit amet venenatis. Nunc varius, libero a tempor rutrum, nulla risus congue velit, nec suscipit nibh lectus ac dolor. Nulla facilisi."
+    }
+]

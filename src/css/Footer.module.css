@@ -1,0 +1,8 @@
+/**************************
+FOOTER
+**************************/
+.footer {
+  background-color: var(--negro);
+  padding-bottom: 3rem;
+  margin-top: 4rem;
+}
