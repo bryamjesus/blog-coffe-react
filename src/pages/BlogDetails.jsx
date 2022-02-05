@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom'
 import principal from '../json/principal.json'
 import style from '../css/Nosotros.module.css'
 
-export const Curso = () => {
+export const BlogDetails = () => {
   const { id } = useParams()
   const details = principal.find((curso) => curso.id == id)
   return (
